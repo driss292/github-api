@@ -1,0 +1,98 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1 {
+  font-size: 70px;
+  color: #f1f1f1;
+  text-align: center;
+  margin: 40px 0 50px 0;
+}
+
+body form,
+body .affichage {
+  margin: 0 auto;
+  width: clamp(400px, 50%, 800px);
+}
+
+body form input {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 20px;
+}
+
+body .affichage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .affichage .carte {
+  position: relative;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+body .affichage .carte .avatar {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #000;
+  border: 1px solid #000;
+}
+
+body .affichage .carte h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+body .affichage .carte .cont-infos {
+  border-top: 1px dashed #000;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+body .affichage .carte .cont-infos li {
+  padding: 10px 20px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+body .affichage .carte .cont-infos li:nth-child(1) {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
